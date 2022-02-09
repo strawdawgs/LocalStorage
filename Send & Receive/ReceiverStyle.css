@@ -1,0 +1,70 @@
+body{
+    background-color: darkgoldenrod;
+}
+
+.page-wrapper{
+    border: 1px solid black;
+}
+
+.page-wrapper .header{
+    border: 1px solid red;
+    text-align: center;
+    margin: 20px 20px;
+}
+
+.page-wrapper .header h1{
+    border: 1px solid green;
+}
+
+.page-wrapper .header p{
+    border: 1px solid green;
+    font-size: 18px;
+}
+
+.page-wrapper .info-displayer-container{
+    border: 1px solid red;
+    margin: 20px 20px;
+}
+
+.page-wrapper .info-displayer-container .info-displayer{
+    border: 1px solid green;
+    height: 500px;
+    width: 500px;
+    background-color: beige;
+    margin: 10px auto;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.page-wrapper .info-displayer-container .info-displayer .information{
+    border: 1px solid red;
+    height: 470px;
+    width: 470px;
+    margin: 15px;
+    font-size: 18px;
+}
+
+.page-wrapper .info-displayer-container .info-displayer .information label, span{
+    border: 1px solid green;
+}
+
+.page-wrapper .refresh-button-container{
+    border: 1px solid red;
+    margin: 20px 20px;
+    text-align: center;
+}
+
+.page-wrapper .refresh-button-container #refresh-button{
+    border: 1px solid green;
+    background-color: darkslateblue;
+    color: beige;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.page-wrapper .refresh-button-container #refresh-button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}

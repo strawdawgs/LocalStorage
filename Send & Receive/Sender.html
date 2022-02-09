@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+
+    <title>Sender</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SenderStyle.css">
+    <script type="text/javascript" src="SenderScript.js"></script>
+
+</head>
+<body>
+
+    <div class="page-wrapper">
+
+        <div class="header">
+
+            <h1>This is the "Sender" page</h1>
+
+            <p>This page will record your information and "send" it to the "receiver" page.</p>
+
+        </div>
+
+        <div class="info-collector-container">
+            <div class="info-collector">
+                <div class="information">
+
+                    <form class="info-form"> <!-- action="/action_page.php" method="get/post" -->
+
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="fname"><br><br>
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="lname"><br><br>
+                        <label for="email">E-Mail:</label>
+                        <input type="text" id="email" name="email"><br><br>
+                        <label for="phone">Phone Number:</label>
+                        <input type="text" id="phone" name="phone">
+                        
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="send-button-container">
+            <button id="send-button" onclick="sendData()">Send</button>
+        </div>
+
+    </div>
+
+</body>
